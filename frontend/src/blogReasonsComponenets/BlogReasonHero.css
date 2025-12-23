@@ -1,0 +1,61 @@
+.blog-reason-hero {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;        /* vertical center */
+  justify-content: center;    /* horizontal center */
+
+  font-family: "Inter", sans-serif;
+}
+
+/* overlay layer */
+.blog-reason-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+/* text container */
+.blog-reason-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* heading */
+.blog-reason-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+  margin-bottom: 18px;
+}
+
+/* subtitle */
+.blog-reason-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #111;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .blog-reason-content h1 {
+    font-size: 32px;
+  }
+
+  .blog-reason-content p {
+    font-size: 16px;
+  }
+}

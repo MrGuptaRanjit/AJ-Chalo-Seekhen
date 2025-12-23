@@ -1,0 +1,96 @@
+.class10-about {
+  width: 100%;
+  background: #ffffff;
+  padding: 80px 0;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  /* IMPORTANT */
+  text-align: left;
+}
+
+/* ===================== */
+/* HEADINGS */
+/* ===================== */
+
+.about-container h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.about-container h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 32px 0 12px;
+}
+
+/* ===================== */
+/* PARAGRAPHS */
+/* ===================== */
+
+.about-container p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #2b2b2b;
+  margin-bottom: 18px;
+}
+
+/* ===================== */
+/* LIST */
+/* ===================== */
+
+.about-container ul {
+  margin: 12px 0 28px 20px;
+  padding: 0;
+}
+
+.about-container li {
+  font-size: 22px;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.learn-list {
+  margin-top: 24px;
+  padding-left: 24px;
+}
+
+.learn-list li {
+  margin-bottom: 28px;
+}
+
+.learn-list li strong {
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.learn-list li p {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.9;
+  color: #2b2b2b;
+}
+
+
+/* ===================== */
+/* RESPONSIVE */
+/* ===================== */
+
+@media (max-width: 768px) {
+  .about-container h2 {
+    font-size: 28px;
+  }
+
+  .about-container p,
+  .about-container li {
+    font-size: 16px;
+  }
+}

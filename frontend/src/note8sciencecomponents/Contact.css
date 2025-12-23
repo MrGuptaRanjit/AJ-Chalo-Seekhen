@@ -1,0 +1,156 @@
+.contact-section {
+  width: 100%;
+  min-height: 100vh;          /* ✅ allow extra space */
+  display: flex;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 80px;       /* ✅ bottom gap */
+}
+
+/* LEFT SIDE */
+.contact-left {
+  width: 50%;
+  position: relative;
+}
+
+.founder-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* DARK OVERLAY */
+.left-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.85)
+  );
+  padding: 60px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* BRAND BADGE */
+.brand-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #c0183c;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.badge-text {
+  background: #fff;
+  color: #c0183c;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.badge-sub {
+  font-weight: 600;
+}
+
+/* INSTAGRAM */
+.insta {
+  color: #ffcc00;
+  margin-bottom: 22px;
+  font-weight: 500;
+}
+
+/* HEADLINE */
+.headline {
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.headline span {
+  font-weight: 800;
+}
+
+/* DIVIDER */
+.divider {
+  width: 60px;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 24px;
+}
+
+/* FOUNDER TEXT */
+.founder {
+  color: #ffcc00;
+  font-size: 16px;
+}
+
+/* RIGHT SIDE */
+.contact-right {
+  width: 50%;
+  background: #0b77b8;
+  padding: 80px 100px 120px;   /* ✅ EXTRA bottom space */
+  color: #fff;
+}
+
+/* TITLE */
+.contact-right h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+/* FORM */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-size: 14px;
+}
+
+/* INPUTS */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+/* TEXTAREA */
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+  border-radius: 22px;
+}
+
+/* SUBMIT BUTTON */
+.contact-form button {
+  margin-top: 24px;
+  width: 160px;
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  background: #fff;
+  color: #0b77b8;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}

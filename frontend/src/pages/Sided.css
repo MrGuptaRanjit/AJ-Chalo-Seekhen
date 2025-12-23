@@ -1,0 +1,85 @@
+.sided-section {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/coursesimages/sidead.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+/* slight soft overlay for readability */
+.sided-overlay {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* HEADINGS */
+.sided-overlay h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.sided-overlay h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+/* FORM */
+.sided-form {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.sided-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #000;
+}
+
+.sided-form span {
+  color: red;
+}
+
+.sided-form input,
+.sided-form textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+}
+
+.sided-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* BUTTON */
+.sided-form button {
+  display: block;
+  margin: 40px auto 0;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sided-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}

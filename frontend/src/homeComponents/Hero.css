@@ -1,0 +1,144 @@
+.hero {
+  background: #ffffff;
+  padding: 32px 0 90px;
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LEFT */
+.hero-left {
+  max-width: 560px;
+}
+
+.hero-brand {
+  width: 180px;
+  margin-bottom: 32px;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0b0b2c;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 36px;
+  color: #000;
+}
+
+.hero-left p strong {
+  font-weight: 700;
+}
+
+/* BUTTONS */
+.hero-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary {
+  background: #5ccf5f;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #5ccf5f;
+  color: #5ccf5f;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+/* RIGHT */
+.hero-right {
+  position: relative;
+}
+
+.hero-image-box {
+  position: relative;
+}
+
+.hero-image-box img {
+  width: 520px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+/* LOGO ON IMAGE */
+.hero-logo {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-logo img {
+  width: 36px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 1024px) {
+  .hero-inner {
+    gap: 40px;
+  }
+
+  .hero-image-box img {
+    width: 440px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-logo {
+    right: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-left h1 {
+    font-size: 32px;
+  }
+
+  .hero-brand {
+    margin: 0 auto 24px;
+  }
+}

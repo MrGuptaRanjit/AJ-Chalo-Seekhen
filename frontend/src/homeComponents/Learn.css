@@ -1,0 +1,96 @@
+.learn-section {
+  width: 100%;
+  padding: 80px 6%;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Stats section */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
+.stat-box h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0b0b2c;
+  margin-bottom: 12px;
+}
+
+.stat-box p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Divider */
+.divider {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 60px 0;
+}
+
+/* Heading */
+.learn-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.learn-heading p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.learn-heading h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+}
+
+.learn-heading h1 span {
+  font-weight: 700;
+}
+
+/* Image */
+.learn-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.learn-image img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .learn-heading h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .learn-section {
+    padding: 60px 5%;
+  }
+
+  .stat-box h2 {
+    font-size: 34px;
+  }
+
+  .learn-heading h1 {
+    font-size: 26px;
+  }
+}

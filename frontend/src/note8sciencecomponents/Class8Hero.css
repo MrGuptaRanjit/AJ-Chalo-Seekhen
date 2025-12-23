@@ -1,0 +1,109 @@
+.class8-wrapper {
+  width: 100%;
+  background: #f2f2f2;
+  padding-bottom: 120px;
+  font-family: "Inter", sans-serif;
+}
+
+/* TOP */
+.class8-top {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px 60px;
+}
+
+.class8-top h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.class8-top p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+  color: #111;
+}
+
+/* GREEN BUTTON */
+.green-btn {
+  margin-top: 50px;
+  background: #3ea043;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  padding: 26px 0;
+  border-radius: 60px;
+}
+
+/* NOTES DARK SECTION */
+.notes-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  background: #222;
+  border-radius: 28px;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px;
+}
+
+.notes-left h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.notes-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notes-left li {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+.notes-left li:hover {
+text-decoration: underline;
+}
+
+.notes-right img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* REMOVED CHAPTERS */
+.removed-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.removed-header {
+  background: #222;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 32px;
+  border-radius: 28px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.removed-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 40px;
+}
+
+.removed-content ol {
+  font-size: 20px;
+  line-height: 2.2;
+}
+
+.removed-content img {
+  width: 240px;
+}

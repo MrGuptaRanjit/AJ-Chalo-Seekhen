@@ -1,0 +1,59 @@
+.academics-wrapper {
+  padding: 40px 80px 0;
+}
+
+/* TOP BAR */
+.academics-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* BREADCRUMB */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.breadcrumb-muted {
+  color: #6b7280;
+}
+
+.breadcrumb-separator {
+  color: #9ca3af;
+}
+
+.breadcrumb-active {
+  color: #ff6a00;
+  font-weight: 500;
+}
+
+/* SORT */
+.sort-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sort-label {
+  color: #374151;
+  font-size: 18px;
+}
+
+.sort-select {
+  padding: 10px 18px;
+  border-radius: 30px;
+  border: 1px solid #e5e7eb;
+  font-size: 16px;
+  background: white;
+  cursor: pointer;
+}
+
+/* DIVIDER */
+.academics-divider {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 20px;
+}

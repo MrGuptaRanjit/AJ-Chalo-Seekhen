@@ -1,0 +1,23 @@
+.tanya-section {
+  width: 100%;
+  padding: 40px ;
+}
+
+.tanya-section img {
+  width: 100%;
+  max-width: 1400px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .tanya-section {
+    padding: 20px;
+  }
+
+  .tanya-section img {
+    border-radius: 16px;
+  }
+}

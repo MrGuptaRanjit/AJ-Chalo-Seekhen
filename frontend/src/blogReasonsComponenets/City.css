@@ -1,0 +1,63 @@
+.city-section {
+  width: 100%;
+  background: #ffffff;
+  padding: 80px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.city-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.city-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+/* Two-column layout */
+.city-content {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+/* Image */
+.city-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+}
+
+/* Text */
+.city-text p {
+  font-size: 22px;
+  line-height: 1.85;
+  color: #222;
+  margin-bottom: 22px;
+}
+
+.city-text strong {
+  font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .city-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .city-title {
+    font-size: 30px;
+  }
+
+  .city-text p {
+    font-size: 16px;
+  }
+}

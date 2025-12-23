@@ -1,0 +1,70 @@
+.girlglass-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 24px;
+  font-family: "Inter", sans-serif;
+  color: #111;
+}
+
+/* HEADING */
+.girlglass-heading {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+/* MAIN LAYOUT */
+.girlglass-container {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 70px;
+  align-items: flex-start;
+}
+
+/* IMAGE */
+.girlglass-image img {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+/* TEXT */
+.girlglass-text p {
+  font-size: 25px;
+  line-height: 1.8;
+  margin-bottom: 26px;
+  color: #1f2937;
+}
+
+.girlglass-text strong {
+  font-weight: 700;
+  color: #000;
+}
+
+/* BLUE HIGHLIGHT */
+.highlight {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .girlglass-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .girlglass-heading {
+    font-size: 32px;
+  }
+
+  .girlglass-text p {
+    font-size: 16px;
+  }
+
+  .girlglass-image img {
+    max-width: 100%;
+  }
+}

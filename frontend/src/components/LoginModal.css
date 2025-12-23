@@ -1,0 +1,228 @@
+/* OVERLAY */
+.login-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* MODAL */
+.login-modal {
+  width: 420px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 32px;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* CLOSE */
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* TITLE */
+.login-modal h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #111;
+}
+
+/* INPUTS */
+.login-modal input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  outline: none;
+}
+
+.login-modal input:focus {
+  border-color: #5663f7;
+}
+
+/* PASSWORD */
+.password-field {
+  position: relative;
+}
+
+.password-field span {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
+
+/* PHONE */
+.phone-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 0 12px;
+  margin-bottom: 16px;
+}
+
+.phone-field input {
+  border: none;
+  margin: 0;
+  padding: 12px 8px;
+}
+
+.flag {
+  font-size: 13px;
+  margin-right: 6px;
+  color: #555;
+}
+
+.code {
+  font-size: 14px;
+  margin-right: 8px;
+  color: #555;
+}
+
+/* CHECKBOX — ONE LINE LIKE FIRST IMAGE */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 18px;
+  white-space: nowrap;
+}
+
+.checkbox input {
+  margin: 0;
+}
+
+/* NEXT BUTTON */
+.next-btn {
+  width: 100%;
+  background: #5865f2;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.next-btn:hover {
+  background: #4b57e0;
+}
+
+/* DIVIDER — FIRST IMAGE STYLE */
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 22px 0 18px;
+}
+
+.divider span {
+  flex: 1;
+  height: 1px;
+  background-color: #b5bcc5; 
+}
+
+.divider p {
+  margin: 0 150px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1;
+}
+
+
+/* GOOGLE BUTTON */
+.google-btn {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.google-btn img {
+  width: 18px;
+}
+
+/* LOGIN TEXT */
+.login-text {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.login-text strong {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* TERMS */
+.terms {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 14px;
+}
+
+.terms strong {
+  font-weight: 500;
+}
+
+/* SUPPORT */
+.support {
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+}
+
+.support strong {
+  font-weight: 600;
+}
+
+.email-btn {
+  width: 100%;
+  background: #5865f2;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}

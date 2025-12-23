@@ -1,0 +1,57 @@
+.maths-hero {
+  width: 100%;
+  padding: 90px 0 130px;
+  background: #f5f5f5;
+}
+
+.maths-hero-content {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 24px;
+}
+
+/* IMAGE */
+.maths-hero-image {
+  width: 560px;
+  max-width: 100%;
+  border-radius: 20px;
+  margin: 0 auto 32px;   /* 👈 center horizontally */
+  display: block;        /* 👈 IMPORTANT */
+}
+
+
+/* TITLE */
+.maths-title {
+  font-size: 46px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 26px;
+  font-family: "Inter", sans-serif;
+}
+
+/* DESCRIPTION */
+.maths-description {
+  font-size: 18px;
+  line-height: 2;
+  color: #111;
+  max-width: 820px;
+  margin: 0 auto 34px;
+  font-family: "Inter", sans-serif;
+}
+
+/* META */
+.maths-meta {
+  font-size: 16px;
+  color: #ff5a00;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.maths-meta span {
+  color: #ff5a00;
+}
+
+.divider {
+  margin: 0 10px;
+}

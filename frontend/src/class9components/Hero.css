@@ -1,0 +1,99 @@
+.class-hero {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/class9/bg-science.png") center/cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  width: 100%;
+  min-height: 100vh;
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 900px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Main Card Image */
+.hero-main-img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 28px;
+  margin: 0 auto 24px;
+  display: block;
+}
+
+/* Subject Icons */
+.hero-subjects {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.hero-subjects img {
+  width: 90px;
+  border-radius: 16px;
+}
+
+/* Title */
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+/* Subtitle */
+.hero-subtitle {
+  max-width: 720px;
+  margin: 0 auto 28px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Button */
+.hero-btn {
+  background: #ff6a00;
+  color: #fff;
+  border: none;
+  padding: 18px 44px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.hero-btn:hover {
+  background: #e85c00;
+}
+
+/* Language */
+.hero-language {
+  font-size: 16px;
+  color: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-subjects img {
+    width: 70px;
+  }
+}

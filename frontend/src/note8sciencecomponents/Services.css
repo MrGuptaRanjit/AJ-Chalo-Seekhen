@@ -1,0 +1,99 @@
+.services-section {
+  width: 100%;
+  padding: 120px 0;
+  background: #f5f5f5;
+  font-family: "Inter", sans-serif;
+}
+
+.services-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+/* LEFT SIDE */
+.services-left {
+  width: 55%;
+}
+
+.services-title {
+  font-size: 28px;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color: #000;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 60px;
+}
+
+.service-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.service-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.service-icon {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #000;
+}
+
+/* RIGHT SIDE IMAGES */
+.services-right {
+  width: 45%;
+  position: relative;
+  height: 420px;
+}
+
+.services-right .img {
+  position: absolute;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s ease;
+}
+
+.img-1 {
+  top: 40px;
+  left: 0;
+  z-index: 4;
+}
+
+.img-2 {
+  top: 0;
+  left: 120px;
+  z-index: 3;
+}
+
+.img-3 {
+  top: 100px;
+  left: 200px;
+  z-index: 2;
+}
+
+.img-4 {
+  top: 160px;
+  left: 80px;
+  z-index: 1;
+}
+
+/* HOVER EFFECT */
+.services-right .img:hover {
+  transform: translateY(-10px);
+}

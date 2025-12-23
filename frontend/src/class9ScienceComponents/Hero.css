@@ -1,0 +1,85 @@
+.class9-hero {
+  width: 100%;
+  height: 100vh;
+  background: #6a45b8;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CENTER */
+.hero-content {
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-card {
+  width: 520px;
+  border-radius: 28px;
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 800;
+  margin-bottom: 36px;
+  font-family: "Inter", sans-serif;
+}
+
+/* BUTTON */
+.buy-btn {
+  background: #ff5a00;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 18px 44px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 26px;
+}
+
+.buy-btn span {
+  font-weight: 800;
+}
+
+/* META */
+.meta {
+  color: #000;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+/* DECORATIVE ITEMS */
+.decor {
+  position: absolute;
+  z-index: 1;
+}
+
+.gear {
+  left: -80px;
+  bottom: 80px;
+  width: 260px;
+}
+
+.telescope {
+  right: 80px;
+  bottom: 140px;
+  width: 220px;
+}
+
+.globe {
+  left: -60px;
+  top: 60px;
+  width: 240px;
+}
+
+.tubes {
+  right: 40px;
+  top: 80px;
+  width: 220px;
+}

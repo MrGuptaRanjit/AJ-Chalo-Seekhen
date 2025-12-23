@@ -1,0 +1,21 @@
+.quote2 {
+  width: 100%;
+  background: #ffffff;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-text {
+  max-width: 1100px;
+  text-align: center;
+  font-size: 26px;
+  line-height: 1.6;
+  color: #000;
+  font-weight: 600;
+}
+
+.quote-author {
+  font-weight: 400;
+  font-size: 24px;
+}

@@ -1,0 +1,150 @@
+.package-page {
+  padding: 50px 80px;
+}
+
+/* TOP BAR */
+.package-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.breadcrumb {
+  font-size: 15px;
+  color: #6b7280;
+}
+
+.breadcrumb span {
+  margin: 0 6px;
+}
+
+.breadcrumb strong {
+  color: #ff6a00;
+  font-weight: 500;
+}
+
+/* SORT */
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort span {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.sort select {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* DIVIDER */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 16px 0 30px;
+}
+
+/* TITLE */
+.package-title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #4b5563;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+/* CARD */
+.package-card {
+  background: white;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+/* ✅ HOVER EFFECT */
+.package-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
+
+/* IMAGE */
+.package-img {
+  position: relative;
+  height: 190px;
+}
+
+.package-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* BADGE */
+.badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: #ff6a00;
+  color: white;
+  padding: 4px 12px;
+  font-size: 12px;
+  border-radius: 14px;
+}
+
+/* INFO */
+.package-info {
+  padding: 20px 22px 24px;
+}
+
+.package-info h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+/* RATING */
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.stars {
+  color: #ff6a00;
+  font-size: 14px;
+}
+
+.rating-text {
+  font-size: 13px;
+  color: #374151;
+}
+
+/* TEXT */
+.courses {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.price {
+  font-size: 18px;
+  color: #ff6a00;
+  font-weight: 500;
+}

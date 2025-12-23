@@ -1,0 +1,32 @@
+.quote-section {
+  width: 100%;
+  background: #ffffff;
+  padding: 60px 20px 70px;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 26px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 0 auto 18px;
+}
+
+.quote-author {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 20px;
+  }
+
+  .quote-author {
+    font-size: 16px;
+  }
+}

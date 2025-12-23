@@ -1,0 +1,33 @@
+.about-section {
+  width: 100%;
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #0b0b6f;
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.about-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 70px;
+  background: #f5f5f5;
+}
+
+.about-box p {
+  font-size: 25px;
+  line-height: 1.9;
+  color: #222;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 32px;
+}
+
+.about-box p:last-child {
+  margin-bottom: 0;
+}

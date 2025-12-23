@@ -1,0 +1,91 @@
+.our-offer-section {
+  width: 100%;
+  padding: 90px 24px;
+  background: #fff;
+}
+
+.our-offer-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: #0a0f3c;
+  margin-bottom: 60px;
+}
+
+/* GRID */
+.our-offer-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+/* CARD */
+.our-offer-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-offer-card img {
+  width: 100%;
+  border-radius: 22px;
+  margin-bottom: 18px;
+}
+
+/* TITLE */
+.our-offer-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* FREE TEXT */
+.free-text {
+  color: #ff6a00;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+/* COURSE TEXT */
+.course-text {
+  color: #ff6a00;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+/* PRICE */
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff6a00;
+  margin-bottom: 24px;
+}
+
+/* BUTTON */
+.buy-btn {
+  margin-top: auto;
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 999px;
+  border: none;
+  background: #ff6a00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: #e55d00;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .our-offer-grid {
+    grid-template-columns: 1fr;
+  }
+}

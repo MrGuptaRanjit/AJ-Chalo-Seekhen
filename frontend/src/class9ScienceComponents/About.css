@@ -1,0 +1,32 @@
+.about-course-section {
+  width: 100%;
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+/* TITLE */
+.about-course-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: #0b0b6f;
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+/* BOX */
+.about-course-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 60px;
+  background: #f5f5f5;
+}
+
+/* TEXT */
+.about-course-box p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 2.2;
+  color: #111;
+  font-family: "Inter", sans-serif;
+}

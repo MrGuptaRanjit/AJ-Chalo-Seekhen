@@ -1,0 +1,94 @@
+.plan-section {
+  width: 100%;
+  padding: 90px 100px 140px;
+  background: #f5f5f5;
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+.plan-header {
+  max-width: 1100px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+
+.total-time {
+  font-size: 16px;
+  color: #ff5a00;
+  font-weight: 500;
+}
+
+/* LIST */
+.plan-list {
+  max-width: 1100px;
+  margin-left: 80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* ROW */
+.plan-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LEFT */
+.plan-left {
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+}
+
+.week {
+  font-weight: 600;
+  color: #000;
+}
+
+.title {
+  font-weight: 700;
+  color: #000;
+}
+
+/* RIGHT */
+.plan-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ff5a00;
+  font-size: 15px;
+}
+
+.plan-right svg {
+  font-size: 18px;
+}
+
+/* BUTTON */
+.plan-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.view-btn {
+  background: #ff5a00;
+  color: #fff;
+  border: none;
+  padding: 16px 42px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
