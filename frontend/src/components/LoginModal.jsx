@@ -32,6 +32,8 @@ const LoginModal = ({ onClose }) => {
       const res = await API.post("/auth/signup", formData);
 
       localStorage.setItem("token", res.data.token);
+       localStorage.setItem("user", JSON.stringify(res.data.user)); 
+       window.location.reload();
       alert("Signup successful ✅");
       onClose();
     } catch (err) {
@@ -53,6 +55,8 @@ const LoginModal = ({ onClose }) => {
       });
 
       localStorage.setItem("token", res.data.token);
+       localStorage.setItem("user", JSON.stringify(res.data.user)); 
+       window.location.reload();
       alert("Login successful ✅");
       onClose();
     } catch (err) {
@@ -70,6 +74,8 @@ const LoginModal = ({ onClose }) => {
       });
 
       localStorage.setItem("token", res.data.token);
+       localStorage.setItem("user", JSON.stringify(res.data.user)); 
+       window.location.reload();
       alert("Google login successful ✅");
       onClose();
     } catch (err) {
