@@ -1,0 +1,57 @@
+.class8-courses {
+  width: 100%;
+  padding: 80px 40px;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADING */
+.courses-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: #0a0a4a;
+  margin-bottom: 70px;
+}
+
+/* GRID */
+.courses-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between; /* 👈 pushes cards far apart */
+  align-items: flex-start;
+}
+
+/* CARD */
+.course-card {
+  width: 360px;
+}
+
+.course-img {
+  width: 100%;
+  border-radius: 18px;
+  display: block;
+  margin-bottom: 18px;
+}
+
+/* TITLE */
+.course-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+/* VIEW LINK */
+.view-link {
+  color: #ff6a00;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.arrow {
+  margin-left: 8px;
+}
