@@ -1,4 +1,5 @@
 // src/components/Class8Hero.jsx
+import { Link } from "react-router-dom";
 import "./Class8Hero.css";
 
 const Class8Hero = () => {
@@ -14,17 +15,21 @@ const Class8Hero = () => {
 
       {/* SUBJECT IMAGES */}
       <div className="class8-subjects">
+        <Link to="/courses/class8/science" >
         <img
           src="/coursesimages/class8science.jpg"
           alt="Class 8 Science"
           className="subject-img"
         />
+        </Link>
 
+        <Link to="/courses/class8/maths" >
         <img
           src="/coursesimages/class8maths.jpg"
           alt="Class 8 Maths"
           className="subject-img"
         />
+        </Link>
       </div>
 
       {/* TEXT CONTENT */}

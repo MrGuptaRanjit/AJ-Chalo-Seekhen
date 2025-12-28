@@ -1,0 +1,72 @@
+.science-about {
+  width: 100%;
+  padding: 80px 20px;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+/* PAGE TITLE */
+.science-about-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: #0a0a4a;
+  margin-bottom: 40px;
+}
+
+/* CONTENT BOX */
+.science-about-box {
+  max-width: 860px;
+  margin: 0 auto;
+  background: #f6f6f6;
+  padding: 50px 60px;
+}
+
+/* SECTION HEADINGS */
+.science-about-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin: 40px 0 18px;
+}
+
+/* PARAGRAPHS */
+.science-about-box p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 22px;
+}
+
+/* BULLET LIST */
+.science-about-box ul {
+  padding-left: 22px;
+  margin: 20px 0 40px;
+}
+
+.science-about-box li {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* WHAT YOU WILL LEARN LIST */
+.learn-list {
+  padding-left: 22px;
+}
+
+.learn-list li {
+  margin-bottom: 34px;
+}
+
+.learn-list strong {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+.learn-list p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}

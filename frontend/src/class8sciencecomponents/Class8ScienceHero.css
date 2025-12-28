@@ -1,0 +1,48 @@
+.science-hero {
+  width: 100%;
+  min-height: 100vh;
+
+  /* 🔥 exact dark gradient */
+  background: linear-gradient(to bottom, #2f2f2f 0%, #000000 70%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  padding: 80px 20px 120px;
+  font-family: "Inter", sans-serif;
+}
+
+/* IMAGE CARD */
+.science-hero-img {
+  width: 520px;
+  max-width: 90%;
+  border-radius: 28px;
+  margin-bottom: 36px;
+}
+
+/* TITLE */
+.science-title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #21c7cf;
+  margin-bottom: 24px;
+}
+
+/* DESCRIPTION */
+.science-desc {
+  max-width: 900px;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+/* META INFO */
+.science-meta {
+  display: flex;
+  gap: 32px;
+  font-size: 16px;
+  color: #ffffff;
+}

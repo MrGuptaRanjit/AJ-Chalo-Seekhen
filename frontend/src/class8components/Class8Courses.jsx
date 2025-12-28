@@ -10,7 +10,7 @@ const Class8Courses = () => {
       <div className="courses-grid">
         {/* SCIENCE */}
         <div className="course-card">
-          <Link to="/courses/class8science">
+          <Link to="/courses/class8/science">
           <img
             src="/coursesimages/class8science.jpg"
             alt="Class 8 Science"
@@ -19,7 +19,7 @@ const Class8Courses = () => {
           </Link>
 
           <h3>Class 8 - Science</h3>
-          <Link to="/courses/class8science">
+          <Link to="/courses/class8/science">
           <span className="view-link">
             View course <span className="arrow">→</span>
           </span>
@@ -29,7 +29,7 @@ const Class8Courses = () => {
 
         {/* MATHS */}
         <div className="course-card">
-          <Link to="/courses/class8maths">
+          <Link to="/courses/class8/maths">
           <img
             src="/coursesimages/class8maths.jpg"
             alt="Class 8 Mathematics"
@@ -37,7 +37,7 @@ const Class8Courses = () => {
           />
           </Link>
           <h3>Class 8 Mathematics</h3>
-          <Link to="/courses/class8maths">
+          <Link to="/courses/class8/maths">
           <span className="view-link">
             View course <span className="arrow">→</span>
           </span>

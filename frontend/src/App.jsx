@@ -28,6 +28,8 @@ import FloatingActions from "./components/FloatingActions";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Sided from "./pages/Sided";
 import Class8 from "./pages/Class8";
+import Class8Science from "./pages/Class8Science";
+import Class8Maths from "./pages/Class8Maths";
 
 function App() {
   // 🔥 LOGIN MODAL STATE
@@ -48,17 +50,15 @@ function App() {
         <Route path="/courses" element={<Courses />} />
 
         <Route path="/courses/class10" element={<Class10 />} />
-
         <Route path="/courses/class10/science" element={<Class10Science />} />
 
         <Route path="/courses/class9" element={<Class9 />} />
-
         <Route path="/courses/class9/science" element={<Class9Science />} />
-
         <Route path="/courses/class9/maths" element={<Class9Maths />} />
 
         <Route path="/courses/class8" element={<Class8 />} />
-
+        <Route path="/courses/class8/science" element={<Class8Science />} />
+        <Route path="/courses/class8/maths" element={<Class8Maths />} />
 
         {/* PUBLIC */}
         <Route path="/sidead" element={<Sided />} />
